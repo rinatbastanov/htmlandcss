@@ -1,0 +1,75 @@
+* {
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    background-color: #1E1F29;
+    border-radius: 10px;
+    padding: 48px;
+    max-width: 600px;
+    min-width: 360px;
+    margin: 0 auto;
+}
+
+.form-title {
+    color: #FAFAFA;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 32px 0;
+}
+
+.form-button {
+    width: 679px;
+    height: 46px;
+    border-radius: 10px;
+    color: white;
+    background-color: #6C38CC;
+}
+
+
+
+input, textarea, select {
+    background: #2E2D3D;
+    color: #FAFAFA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder 
+{
+    color: #4a4863;
+    font-size: 16px;
+}
+
+label {
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #AFB2BF;
+}
+
+.field {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}

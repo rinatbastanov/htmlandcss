@@ -1,0 +1,289 @@
+*::selection {
+  background-color: #f0fac3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 16px;
+}
+
+
+
+p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.link:hover {
+  color: #e02f2f;
+}
+
+.parag {
+  font-size: 14px;
+  color: pink;
+}
+
+.heroText {
+ color: #050038;
+ font-size: 18px;
+ max-width: 436px;
+}
+
+#heroButton {
+  background-color: #4262FF;
+  transition: background-color 1s 1s, border-radius 2s 1s;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
+
+
+#heroButton:hover {
+  background-color: #1500ff;
+  border-radius: 50%;
+
+}
+
+#heroButton:active {
+  background-color: #010102;
+
+}
+
+.heroFont input:focus {
+  background-color: aliceblue;
+}
+
+.main {
+  margin: 60px 40px 120px 40px;
+}
+
+h1 {
+  margin: 0 0 17px 0;
+  text-align: start;
+  font-size: 4vmin;
+  color: red;
+}
+
+h2 {
+  margin: 0 0 19px 0;
+}
+
+h1, h2 {
+  font-weight: 400;
+  font-size: 4vmin;
+  color: #050038;
+}
+
+.sectionText {
+  color: #050038;
+  font-size: 1.1rem;
+  max-width: calc(436px);
+}
+
+  
+header {
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 60px;
+}
+
+header  a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+
+.heroForm + p {
+  font-weight: 400;
+  line-height: 24px;
+  color: #050038;
+  margin: 8px 0 52px 0;
+}
+
+#heroButton {
+  background-color: #4262FF;
+  color: #FFFFFF;
+}
+
+#heroButton:hover {
+  background-color: #122db6;
+}
+
+#heroButton:active {
+  background-color: #071766;
+}
+
+#heroImage {
+  float: left;
+}
+
+.heroForm input {
+  height: 38px;
+  border-radius: 32px;
+  border: 1px solid #9B99AF;
+  padding: 5px 10px;
+}
+
+.heroForm button {
+  height: 48px;
+  border-radius: 32px;
+  border: 0;
+  padding: 10px 20px;
+}
+
+nav {
+  padding: 33px 50px;
+  margin-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 34px;
+}
+
+.sectionList { 
+  list-style: none;
+  /* list-style: url('../img/frame.svg'); */
+}
+
+.sectionList li::marker {
+  content: url('../img/frame.svg');
+}
+
+footer {
+  background: #050038;
+  padding: 47px 40px;
+
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.cl1 {
+  background: red;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.cl2 {
+  background: blue;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.cl3 {
+  background: green;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.static .cl2 {
+  position: static;
+}
+
+.relative .cl2 {
+  position: relative;
+  top: 50px;
+  left: -50px;
+}
+
+.absolute {
+  position: relative; 
+}
+
+.absolute .cl2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.fixed .cl2{
+  /* position: fixed; */
+  top: 50px;
+  left: 50px;
+}
+
+.sticky {
+  height: 600px;
+}
+
+.sticky .cl2 {
+  position: sticky;
+  top: 50px;
+  left: 50px;
+}
+
+#hero {
+  display: flex;
+  gap: 65px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  margin-bottom: 200px;
+}
+.heroLogos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+h1 {
+  font-size: 3em;
+}
+
+.heroForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectionTwo {
+  display: flex;
+  flex-direction: row;
+  gap: 116px;
+}
+
+.sectionThree {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 116px;
+}
+
+.footer {
+  display: flex;
+  gap: 20px;
+}
+
+.miro {
+ color: white;
+}
+
+.achor a {
+  margin-right: 20px;
+}
+
+.achor a:nth-child(3) {
+  margin-right: 0;
+}
