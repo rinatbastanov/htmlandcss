@@ -271,10 +271,6 @@ h1 {
   gap: 116px;
 }
 
-.footer {
-  display: flex;
-  gap: 20px;
-}
 
 .miro {
  color: white;
@@ -286,4 +282,12 @@ h1 {
 
 .achor a:nth-child(3) {
   margin-right: 0;
+}
+
+.footer > .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px 0;
+  display: flex;
+  gap: 20px;
 }
